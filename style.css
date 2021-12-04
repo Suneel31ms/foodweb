@@ -1,0 +1,322 @@
+*{
+    margin: 0%; padding: 0%;
+    box-sizing: border-box;
+}
+/* -----------Header Section------------- */
+.header{
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('iced.jpg');
+    background-position: center;
+    background-size: cover;
+    font-family: Lato,sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+/* menu */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 20px 40px 20px 100px;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.nav-container li a{
+    color: white;
+    text-decoration: none;
+}
+ .item-4 {
+     flex: 0.5 0 0;
+     font-size: 30px;
+     font-family:cursive
+ }
+.nav-container li a:hover{
+    color: orange;
+}
+ .icon{
+    display: none;
+}
+/* ---------------sticky class---------- */
+.sticky{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: white;
+    transition: all 0.7s;
+    z-index: 1;
+}
+.sticky ul li a{
+    color: black;
+}
+/* ------------------------------ */
+/* textbox */
+.textbox{
+    width: 100%;
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px 0px;
+    color: white;
+    font-family:playfair Display;
+}
+.textbox h6{
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    
+}
+span{
+    color: orange;
+}
+.textbox h1{
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    
+}
+
+ .textbox p{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 60px;
+}
+ .btn{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    border: 1px solid orange;
+    padding: 20px 25px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+ .btn:hover{
+    color: orange;
+}
+/*-- head-bottom--- */
+.head-bootom{ 
+    margin-top: 65px;
+    padding: 20px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-bootom .left {
+    padding-left: 20px;
+}
+.head-bootom .left .fab{
+    color: white;
+    padding-left: 15px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.head-bootom .left .fab:hover{
+    color: orange;
+}
+.head-bootom .right{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.head-bootom .right .fas{
+    color: orange;
+    padding-right: 20px;
+}
+.head-bootom .right p{
+    font-size: 15px;
+}
+/* -------------Universal class------------- */
+.headingg{
+    font-size: 30px;
+    font-weight: lighter;
+}
+/* .para{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 30px;
+} */
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+
+/* -----------------------------Newsletter Section----------------- */
+.newsletter{
+    width: 100%;
+    margin: 20px auto;
+    padding: 100px 20px;
+    text-align: center;
+    background-color: rgb(184, 177, 177);
+    
+}
+.newsletter h1{
+    font-size: 35px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+ p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.newsletter input{
+    padding: 20px 20px;
+    
+
+}
+.newsletter .inp{
+    width: 250px;
+    margin-right: 15px;
+    border: none;
+    outline: none;
+    font-size: 100%;
+}
+.newsletter .inp:focus{
+    outline: 1px solid orange;
+}
+.newsletter .btn1{
+    padding: 20px 30px;
+    background: transparent;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+/* ---------------------Gallery Section----------------- */
+.gallery{
+    width: 80%;
+    margin:80px auto;
+    text-align: center;
+    line-height: 70px;
+}
+ 
+.gallery-col{
+    flex-basis: 32.5%;
+    
+}
+.gallery-col img{
+    width: 100%;
+    margin-bottom: 10px;
+    transition: all 0.3s ;
+}
+.gallery-col img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+/* ------------------------Reservation section----------- */
+.reservation{
+    width: 100%;
+    margin: 20px auto;
+    padding: 100px 20px;
+    text-align: center;
+    background-color: rgb(184, 177, 177);
+    line-height: 70px;
+}
+
+.row-reserv{
+    justify-content: center;
+}
+.reserv-col{
+    padding: 20px 10px;
+}
+.reserv-col input{
+    padding: 26px;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 15px;
+    border: transparent;
+    /* outline: 1px solid orange; */
+}
+.reserv-col input:focus{
+    outline: 1px solid orange;
+}
+.reserv-col #per {
+    width: 300px;
+    height: 52px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border: transparent;
+}
+.reserv-col #per:focus{
+    outline: 1px solid orange;
+}
+.btn2{
+    color: black;
+}
+/* -------------footer section----------- */
+.footer{
+    width: 100%;
+    margin: 0px auto;
+    padding: 40px 50px;
+    background-color: black;
+}
+.footer-col h5{
+    color: orange;
+    margin-bottom: 20px;
+}
+.footer-col p{
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    color: gray;
+}
+ .fas {
+    padding-right: 15px;
+}
+.mail{
+    color: orange;
+}
+
+
+/* -------------media query---------- */
+@media screen and (max-width:700px){
+    .nav-container {
+        display: none;
+    }
+    .icon{
+        display: block;
+        float: right;
+        color: tomato;
+        padding: 10px;
+    }
+    .navlinks .responsive{
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        background-color: wheat;
+        width: 150px;
+        height: 100vh;
+    }
+    .textbox{
+        font-size: 40px;
+        padding: 0px;
+        margin: -10% auto; 
+    }
+    .textbox h6{
+        padding: 150px 0px 0px 0px;
+    }
+    
+    .head-bootom{
+        position: absolute;
+        margin: 50px -50px;
+        display: block;
+        text-align: center; 
+    }
+    .row{
+        display: block;
+    }
+    .foot-row{
+        text-align: left;
+    }
+    /* ---for navbar responsive------ */
+    
+   
+}
